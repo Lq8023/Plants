@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="zh-cn">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Plants</title>
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+	<!--标题 -->
+	<div class="title container">
+		<img src="img/title.jpg" class="img-fluid" alt="Responsive img">
+		<!--检索字 -->
+		<div class="breadcrumb">
+			<nav aria-label="breadcrumb">
+				<ol class="breadcrumb ">
+					<li class="breadcrumb-item">
+						<a href="#">花卉</a>
+					</li>
+					<li class="breadcrumb-item">
+						<a href="#">草坪</a>
+					</li>
+					<li class="breadcrumb-item active" aria-current="page">
+						<a href="#">树</a>
+					</li>
+					<li class="breadcrumb-item">
+						<a href="#">生产</a>
+					</li>
+					<li class="breadcrumb-item">
+						<a href="#">构造</a>
+					</li>
+				</ol>
+			</nav>
+			<!--搜索框 -->
+			<form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				<button class="btn btn-outline-dark my-2 my-sm-0 search" type="submit"><img src="img/search.png"
+						class="search"></button>
+			</form>
+		</div>
+	</div>
+	<!--导航条 -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+		<!--导航条的折叠 -->
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<!--导航条内容 -->
+		<div class="collapse navbar-collapse container " id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">首页<span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">花园护理</a>
+				</li>
+				<!--下拉菜单 -->
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+						aria-haspopup="true" aria-expanded="false"> 季节种植 </a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#spring">春</a>
+						<a class="dropdown-item" href="#summer">夏</a>
+						<a class="dropdown-item" href="#autumn">秋</a>
+						<a class="dropdown-item" href="#winter">冬</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">永远新鲜</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">园林设计</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">园艺空间</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link disabled " href="#" data-toggle="modal" data-target="#about">关于</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<hr>
+	<!--大图片 -->
+	<div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+		<div class="carousel-inner">
+			<div class="carousel-item active" data-interval="100">
+				<img src="img/1.jpg" class="t-picture " alt="...">
+			</div>
+			<div class="carousel-item" data-interval="2000">
+				<img src="img/plants.jpg" class="t-picture " alt="...">
+			</div>
+			<div class="carousel-item" data-interval="2000">
+				<img src="img/plants1.jpg" class="t-picture " alt="...">
+			</div>
+		</div>
+		<a class="carousel-control-prev prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon " aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+		<div class="small-card">
+			<p class="cardtitle">植物</p>
+			<p class="cardtext">多肉植物：今年的摇滚明星植物</p>
+		</div>
+	</div>
+	<!--列表组 -->
+	<ul class="list-group list-group-flush list">
+		<li class="list-group-item">
+			<a href="#">
+				<img src="img/2.png" class="title-picutre">
+				<span class="cardtitle">生产</span>
+				<span class="cardtext">如何摆脱Dogbane甲虫</span></li>
+		</a>
+		<li class="list-group-item">
+			<a href="#">
+				<img src="img/4.png" class="title-picutre">
+				<span class="cardtitle">园林设计</span>
+				<span class="cardtext">遮阴花园的最佳植物</span></li>
+		</a>
+		<li class="list-group-item">
+			<a href="#">
+				<img src="img/3.png" class="title-picutre">
+				<span class="cardtitle">花卉</span>
+				<span class="cardtext">安全遮阳植物</span></li>
+		</a>
+		<li class="list-group-item">
+			<a href="#">
+				<img src="img/5.png" class="title-picutre">
+				<span class="cardtitle">结构</span>
+				<span class="cardtext">如何用砂模制作混凝土罐</span></li>
+		</a>
+		<li class="list-group-item">
+			<a href="#">
+				<img src="img/6.png" class="title-picutre">
+				<span class="cardtitle">植物</span>
+				<span class="cardtext">为什么每个花园都需要一个绣球花</span></li>
+		</a>
+	</ul>
+	<!--分割线 -->
+	<hr class="container">
+	<!--标签页跳转 -->
+	<ul class="nav nav-tabs container " id="myTab" role="tablist">
+		<li class="nav-item">
+			<a class="nav-link active" id="spring-tab" data-toggle="tab" href="#spring" role="tab" aria-controls="spring"
+				aria-selected="true">春天</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" id="summer-tab" data-toggle="tab" href="#summer" role="tab" aria-controls="summer"
+				aria-selected="false">夏天</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" id="autumn-tab" data-toggle="tab" href="#autumn" role="tab" aria-controls="autumn"
+				aria-selected="false">秋天</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" id="winter-tab" data-toggle="tab" href="#winter" role="tab" aria-controls="winter"
+				aria-selected="false">冬天</a>
+		</li>
+	</ul>
+	<!--标签页内容 -->
+	<div class="tab-content container" id="myTabContent">
+		<!--第一个内容 -->
+		<div class="tab-pane fade show active" id="spring" role="tabpanel" aria-labelledby="spring-tab">
+			<div class="row feature">
+				<div class="col-sm-7">
+					<h2 class="feature-heading">春 <span class="text-muted">桃花</span></h2>
+					<br>
+					<p class="lead">桃花的花期在3~4月份，是先开花后长叶，颜色多以粉白色为主，花香清香淡雅特别漂亮。桃树在我国各地都有广泛种植，每到春天都可以欣赏到漫天的桃花。</p>
+				</div>
+				<div class="col-sm-5">
+					<img class="feature-img img-responsive" src="img/spring.png" alt="spring">
+				</div>
+			</div>
+		</div>
+		<!--第二个内容 -->
+		<div class="tab-pane fade" id="summer" role="tabpanel" aria-labelledby="summer-tab">
+			<div class="row feature">
+				<div class="col-md-5">
+					<img class="feature-img img-responsive" src="img/summer.png" alt="summer">
+				</div>
+				<div class="col-md-7">
+					<h2 class="feature-heading">夏 <span class="text-muted">向日葵</span>
+					</h2>
+					<br>
+					<p class="lead">花期7-9月，这个大家都很熟悉了，它因为花朵会向着太阳而得名。现在有矮化品种的向日葵叫做“小熊向日葵”，比较适合阳台种植。</p>
+				</div>
+			</div>
+		</div>
+		<!--第三个内容 -->
+		<div class="tab-pane fade" id="autumn" role="tabpanel" aria-labelledby="autumn-tab">
+			<div class="row feature">
+				<div class="col-md-7">
+					<h2 class="feature-heading">秋 <span class="text-muted">昙花</span></h2>
+					<br>
+					<p class="lead">原产南非、墨西哥等地，属附生性仙人掌科植物。昙花可以增加室内的负离子含量。它花期虽然很短，但是开花的时候美丽高贵，清香四溢。昙花享有“月下美人”之誉。</p>
+				</div>
+				<div class="col-md-5">
+					<img class="feature-img img-responsive" src="img/autumn.png" alt="autumn">
+				</div>
+			</div>
+		</div>
+		<!--第四个内容 -->
+		<div class="tab-pane fade" id="winter" role="tabpanel" aria-labelledby="winter-tab">
+			<div class="row feature">
+				<div class="col-md-5">
+					<img class="feature-img img-responsive" src="img/winter.png" alt="winter">
+				</div>
+				<div class="col-md-7">
+					<h2 class="feature-heading">冬 <span class="text-muted">玉簪</span>
+					</h2>
+					<br>
+					<p class="lead">耐0℃低温。喜阴植物，露天栽植以不受阳光直射的遮荫处为好；冬季入室，可在0-5℃的冷房内过冬，翌年春季再换盆、分株。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--分割线 -->
+	<hr class="divider">
+	<!--卡片信息 -->
+	<div class="row">
+		<div class="col-md-4">
+			<a href="#">
+				<div class=" rounded ">
+					<img src="img/p1.png" class="card-img-top card-picture" alt="...">
+					<div class="body-card">
+						<h5 class="card-title">园艺空间</h5>
+						<p class="cardtext">葡萄藤：激发藤蔓嫉妒的五种攀援植物</p>
+					</div>
+				</div>
+			</a>
+		</div>
+		<div class="col-md-4">
+			<a href="#">
+				<div class=" rounded ">
+					<img src="img/p2.png" class="card-img-top card-picture" alt="...">
+					<div class="body-card">
+						<h5 class="card-title">春</h5>
+						<p class="cardtext">海棠：有着”花贵妃“的称号 </p>
+					</div>
+				</div>
+			</a>
+		</div>
+		<div class="col-md-4">
+			<div class="rounded ">
+				<a href="#">
+					<img src="img/p3.png" class="card-img-top card-picture" alt="...">
+					<div class="body-card">
+						<h5 class="card-title">夏</h5>
+						<p class="cardtext">鸭掌木：能给室内降温的植物 </p>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!--第二行信息 -->
+	<div class="row">
+		<div class="col-md-4">
+			<div class=" rounded ">
+				<a href="#">
+					<img src="img/p4.png" class="card-img-top card-picture" alt="...">
+					<div class="body-card">
+						<h5 class="card-title">园林设计</h5>
+						<p class="cardtext">是时候切换你的草坪了吗？ </p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="rounded ">
+				<a href="#">
+					<img src="img/p5.png" class="card-img-top card-picture" alt="...">
+					<div class="body-card">
+						<h5 class="card-title">植物</h5>
+						<p class="cardtext">不会吓到你的常见药用植物 </p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class=" rounded ">
+				<a href="#">
+					<img src="img/p6.png" class="card-img-top card-picture" alt="...">
+					<div class="body-card">
+						<h5 class="card-title">生产</h5>
+						<p class="cardtext">如何种植茶叶植物 </p>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!--底部 -->
+	<div class="container">
+		<hr class="divide">
+		<footer>
+			<p class="top">
+				<a href="#top">回到顶部</a>
+			</p>
+			<p id="copy">copyright Plant</p>
+		</footer>
+	</div>
+	<!--弹出框 -->
+	<div class="modal fade" id="about" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">关于</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					&nbsp;&nbsp;Plants为您提供专业的植物信息、植物图片、植物养殖方法,植物花语等内容。Plants是目前国内最专业的植物网站。关注Plants您会有意想不到的收获。 </div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">了解了</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="./js/jquery-3.3.1.min.js"></script>
+	<script src="./js/popper.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script>
+		$(document).ready(function (e) {
+			$("#navbarSupportedContent  .dropdown-menu a").click(function () {
+				var href = $(this).attr("href")
+				$("#myTab a[href='" + href + "']").tab("show");
+			})
+		});
+	</script>
+</body>
+
+</html>

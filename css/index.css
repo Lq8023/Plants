@@ -1,0 +1,203 @@
+body {
+  padding-bottom: 50px;
+}
+
+.navbar {
+  color: #F90;
+}
+
+.form {
+  float: right;
+  padding-top: 70px;
+}
+
+.search {
+  width: 28px;
+  height: 23px;
+  padding-left: 0px;
+  padding-top: 0px;
+}
+
+.breadcrumb {
+  width: 400px;
+  height: 25px;
+  background-color: #FFF;
+  float: right;
+  padding-bottom: 0px;
+  margin-top: 8px;
+}
+
+.nav-item {
+  padding-left: 15px;
+  color: #FFF;
+}
+
+.t-picture {
+  width: 580px;
+  height: 360px;
+  margin-left: 80px;
+}
+
+.list-group-item:before {
+  content: "";
+  height: 70%;
+  background: #000;
+  margin-left: 20px;
+  position: absolute;
+  top: 15%;
+  left: 2%;
+  opacity: 0;
+  transition: all 500ms cubic-bezier(0.47, 0, 0.745, 0.715) 0s;
+}
+
+.list-group-item:hover:before {
+  width: 6rem;
+  left: 0;
+  opacity: 0.5;
+}
+
+.carousel {
+  width: 700px;
+  height: 400px;
+  margin-left: 80px;
+}
+
+.carousel .prev {
+  margin-left: 80px;
+}
+
+.carousel .small-card {
+  border: 1px solid #000;
+  width: 450px;
+  height: 70px;
+  position: relative;
+  left: 180px;
+  top: -40px;
+  line-height: 12px;
+  padding-top: 10px;
+  padding-left: 5px;
+  background-color: #FFF;
+  text-align: center;
+}
+
+.carousel .cardtitle {
+  font-size: 15px;
+  color: #060;
+}
+
+.carousel .cardtext {
+  font-size: 20px;
+  color: #000;
+  text-decoration: underline;
+}
+
+.list {
+  position: relative;
+  top: -410px;
+  float: right;
+  margin-right: 90px;
+  width: 400px;
+  height: 0px;
+}
+
+.list-group-item .title-picutre {
+  width: 6rem;
+}
+
+.list-group-item {
+  line-height: 12px;
+}
+
+.list-group-item .cardtext {
+  color: #000;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.divider {
+  margin: 50px 0;
+}
+
+#myTab {
+  margin-top: 50px;
+}
+
+.feature {
+  padding: 30px 0;
+}
+
+.feature-img {
+  width: 28rem;
+}
+
+.feature-heading {
+  font-size: 50px;
+  color: #2a6496;
+  margin-top: 80px;
+}
+
+.feature-heading .text-muted {
+  font-size: 28px;
+}
+
+.card {
+  width: 16rem;
+}
+
+.card-picture {
+  height: 180px;
+  width: 280px;
+}
+
+#myTabContent .row {
+  margin-right: -20px;
+  margin-left: 0px;
+}
+
+.row {
+  margin: 50px 150px 0 150px;
+}
+
+.col-md-4:before {
+  content: "";
+  width: 40%;
+  height: 70%;
+  background: #000;
+  margin-left: 15px;
+  position: absolute;
+  top: 0;
+  left: 30%;
+  opacity: 0;
+  transition: all 500ms cubic-bezier(0.47, 0, 0.745, 0.715) 0s;
+}
+
+.col-md-4:hover:before {
+  width: 17.5rem;
+  left: 0;
+  opacity: 0.5;
+}
+
+.body-card {
+  color: #000;
+  text-align: center;
+}
+
+.body-card .cardtext {
+  text-decoration: underline;
+}
+
+.divide {
+  margin: 40px 0;
+}
+
+.top {
+  float: right;
+}
+
+#copy {
+  text-align: center;
+}
+
+dropdown:hover .dropdown-menu {
+  display: block;
+}
